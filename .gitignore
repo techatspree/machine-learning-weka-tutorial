@@ -1,0 +1,81 @@
+# Directories #
+target/
+
+# OS Files #
+.DS_Store
+*.class
+
+*.log
+
+# Package Files #
+*.jar
+*.war
+*.ear
+*.db
+######################
+# Windows
+######################
+# Windows image file caches
+Thumbs.db
+# Folder config file
+Desktop.ini
+######################
+# OSX
+######################
+.DS_Store
+.svn
+# Thumbnails
+._*
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+######################
+# Linux
+######################
+*~
+######################
+# Eclipse
+######################
+.project
+.pydevproject
+.metadata
+bin/**
+tmp/**
+tmp/**/*
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.classpath
+.settings/
+.loadpath
+/src/main/resources/rebel.xml
+# External tool builders
+.externalToolBuilders/
+# PDT-specific
+.buildpath
+#toolbox not ignore
+!*iconex_toolbox_9_1.jar
+# updatesite nicht ignorieren
+!bpmn_to_process_plugin_updatesite/**
+# workspace checkstyle
+.checkstyle
+######################
+# IntelliJ
+######################
+*.iml
+*.ipr
+*.iws
+.idea
+/out/
+.idea_modules/
+atlassian-ide-plugin.xml
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties
+######################
+# jRebel
+######################
+rebel.xml
